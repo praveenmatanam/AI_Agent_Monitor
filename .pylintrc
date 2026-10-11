@@ -1,0 +1,9 @@
+[MAIN]
+jobs=1
+ignore=.venv,workspace,reports
+
+[MESSAGES CONTROL]
+disable=too-few-public-methods
+
+[FORMAT]
+max-line-length=100

@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "code-review": {
+      "command": "${workspaceFolder}/.venv/bin/python",
+      "args": ["-m", "mcp_servers.code_review_server"],
+      "env": {
+        "PYTHONPATH": "${workspaceFolder}",
+        "REVIEW_WORKSPACE": "${workspaceFolder}",
+        "ENABLED_CHECKS": "pylint"
+      }
+    }
+  }
+}
